@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'TF2 Build';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TF2 Build'), url('../fonts/tf2build.woff') format('woff');
+}
+
+* {
+    font-family: 'Verdana', serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #5f5f5f;
+    padding: 10px 10px;
+}
+
+.desc {
+    overflow: hidden;
+    background-color: lightgrey;
+    padding: 10px 10px;
+}
+
+.desc p {
+    margin: 5px;
+    margin-left: 5%;
+    background-color: lightgrey;
+    color: rgb(77, 76, 76);
+}
+
+.desc a {
+    color: rgb(77, 76, 76);
+}
+
+.desc a:hover {
+    color: rgb(255, 123, 0);
+}
+
+.header a {
+    font-family: 'TF2 Build';
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.header a.logo {
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: rgb(105, 105, 105);
+    text-align: center;
+}
+
+.extlink {
+    color: rgb(105, 105, 105);
+}
+
+.extlink:hover {
+    color: rgb(255, 123, 0);
+}
+
+.dpmlink {
+    color: black;
+}
+
+.dpmlink:hover {
+    color: rgb(255, 123, 0);
+}
+
+.dpmlink:hover>.linkimage {
+    background: url('../images/linkhover.png');
+    background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.linkimage {
+    background-image: url('../images/link.png');
+    background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.linkimage:hover {
+    background: url('../images/linkhover.png');
+    background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.footertext {
+    display: inline-block;
+    background-color: lightgrey;
+    color: rgb(105, 105, 105);
+}
+
+.legal {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 4px;
+}
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Remove number arrows */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Red placeholder for errors */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+.formdiv {
+    width: 500px;
+    height: 215px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.resultsdiv {
+    width: 390px;
+    height: 215px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 45px;
+}
+
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.loader {
+    margin: 60px auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(255, 145, 0, 0.2);
+    border-right: 1.1em solid rgba(255, 145, 0, 0.2);
+    border-bottom: 1.1em solid rgba(255, 145, 0, 0.2);
+    border-left: 1.1em solid #ff9100;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
