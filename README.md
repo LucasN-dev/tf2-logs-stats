@@ -12,3 +12,10 @@ Quick project I did to get your stats from logs.tf including:
 
 On the main page you need to put your STEAMID64 and select the type of game mode you want your stats from (6v6 or HL).
 Your stats are then retrieved using the [logs.tf API](http://logs.tf/about#json/ "API documentation"). Duplicate logs are ignored.
+
+- - - -
+
+#### Screenshots: ####
+
+
+<img src="https://i.imgur.com/EOU2rS1.png" height="220"> <img src="https://i.imgur.com/GW43BFj.png" height="220">
