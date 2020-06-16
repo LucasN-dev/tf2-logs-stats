@@ -18,4 +18,4 @@ Your stats are then retrieved using the [logs.tf API](http://logs.tf/about#json 
 #### Screenshots: ####
 
 
-<img src="https://i.imgur.com/EOU2rS1.png" height="219"> <img src="https://i.imgur.com/GW43BFj.png" height="219">
+<img src="https://i.imgur.com/EOU2rS1.png" height="219"> <img src="https://i.imgur.com/KLGtGlw.png" height="219">

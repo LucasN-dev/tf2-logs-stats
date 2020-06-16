@@ -17,14 +17,14 @@
 
         <h3> Your stats from <?= $gamecount ?> unique matches </h3>
 
-        <p> Games won : <?= $wins ?> </p>
+        <p> Games won: <?= $wins ?> </p>
 
-        <p> Most played class : <?=$mostplayed[0]?> (<?=$classcounter[$mostplayed[0]]?> games)</p>
+        <p> Most played class: <?=$mostplayed[0]?> (<?=$classcounter[$mostplayed[0]]?> games)</p>
 
-        <a class="dpmlink" href="http://logs.tf/<?=$hidpmid?>#<?=$steamid64?>" target="_blank"> Best dpm = <?= $hidpm ?> <div class="linkimage"></div> </a>
+        <a class="dpmlink" href="http://logs.tf/<?=$hidpmid?>#<?=$steamid64?>" target="_blank"> Best dpm: <?= $hidpm ?> <div class="linkimage"></div> </a>
 
-        <p> Average dpm = <?= $mdpm ?> </p>
-        <p> Average kdr = <?= $mkdr ?></p>
+        <p> Average dpm: <?= $mdpm ?> </p>
+        <p> Average kdr: <?= $mkdr ?></p>
         
     <?php } else { ?>
 
