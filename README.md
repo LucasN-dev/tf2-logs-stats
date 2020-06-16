@@ -11,7 +11,7 @@ Quick project I did to get your stats from logs.tf including:
 * Average kdr
 
 On the main page you need to put your STEAMID64 and select the type of game mode you want your stats from (6v6 or HL).
-Your stats are then retrieved using the [logs.tf API](http://logs.tf/about#json/ "API documentation"). Duplicate logs are ignored.
+Your stats are then retrieved using the [logs.tf API](http://logs.tf/about#json "API documentation"). Duplicate logs are ignored.
 
 - - - -
 
