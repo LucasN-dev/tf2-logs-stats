@@ -21,7 +21,7 @@
             <input type="number" id="steamid64" name="steamid64" data-lpignore="true" required required <?php if (isset($_GET[ 'error'])) { ?> placeholder="Please enter a valid STEAMID"
             <?php } ?>><br>
 
-            <label for="gamemode" required>Gamemode </label>
+            <label for="gamemode" required>Game Mode </label>
             <select name="gamemode" id="gamemode">
             <option value="6">6v6</option>
             <option value="9">Highlander</option>
